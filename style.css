@@ -1,186 +1,136 @@
 * {
     font-family: Quicksand;
-    font-size: 030px;
-    color: #061f2a;
-  
-  }
-  p{
-    font-size: 40px;
-  }
-  body {
+    font-size: 16px;
+    color: #333;
+}
+body {
     margin: 0;
     height: 100vh;
     padding: 0;
     border: 0;
-    background: linear-gradient(to bottom right,  #F1F2B5, #eef2f3);
-    position: relative;
-  }
-  
-  
-  .bigbox{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
+    background: linear-gradient(to bottom right, #F1F2B5, #eef2f3);
 }
-  
-  .form {
-    position: absolute;
-    left: 37%;
+.form {
     background-color: #fff;
-    /* height: 540px; */
-    /* width: 760px; */
+    height: 240px;
+    width: 450px;
     border-radius: 20px;
-    margin: 40px auto 80px auto;
-    padding-top: 30px;
-    padding-left: 10px;
-    display: inline-block;
+    margin: 20px auto 20px auto;
+    display: block;
     border: solid 1px #289df6;
-    
     box-shadow: 0 0 40px 0 #ddd;
-  }
-  
-  .form:hover {
+}
+.form:hover {
     box-shadow: 0 0 60px 0 #ccc;
-    transition: .4s;
+    transition: 0.4s;
     transform: scale(1.02);
-  }
-  
-  .row-one {
+}
+.row-one {
     padding: 20px;
-  }
-  
-  .row-two {
+}
+.row-two {
     padding: 20px;
-  }
-  
-  .text-input {
-    width: 70px;
-    height: 40px;
+}
+.text-input {
+    width: 60px;
+    height: 30px;
     border-radius: 10px;
     background-color: #dbeffe;
     border: none;
     outline: none;
     padding: 5px 10px;
     cursor: pointer;
-  }
-  
-  .text-input:last-child {
+}
+.text-input:last-child {
     margin-bottom: 35px;
-  }
-  
-  .text-input:hover {
+}
+.text-input:hover {
     background-color: #cbe7fd;
-  }
-  
-  #submit {
-    font-size: 30px;
+}
+#submit {
     border: none;
     border-radius: 10px;
-    height: 60px;
-    width: 200px;
+    height: 40px;
+    width: 140px;
     background-color: #289df6;
     color: #fff;
-    /* margin-top: 140px; */
-    margin-left: 280px;
-    margin-bottom: 20px;
+    margin: auto;
     display: block;
     outline: none;
     cursor: pointer;
-  }
-  
-  #submit:hover{
+}
+#submit:hover {
     background-color: #0a8ef2;
-    font-weight: 600;
-  }
-  
-  .text {
+}
+.text {
     display: inline-block;
     margin: 5px 20px 5px 8px;
-    padding: 08px;
-  }
-  
-  .row-one {
+}
+.row-one {
     padding: 30px 20px 15px 20px;
-    
-  }
-  .row-two {
-    padding: 35px 20px 30px 20px;
-  }
-  
-  .container {
+}
+.row-two {
+    padding: 15px 20px 30px 20px;
+}
+.container {
     display: inline-block;
     position: relative;
     padding-left: 30px;
     cursor: pointer;
     user-select: none;
-  }
-  
-  .container input {
+}
+.container input {
     position: absolute;
     opacity: 0;
-  }
-  
-  .checkmark {
+}
+.checkmark {
     position: absolute;
     top: 0;
     left: 0;
-    height: 35px;
-    width: 35px;
+    height: 25px;
+    width: 25px;
     background-color: #dbeffe;
     border-radius: 50%;
-    margin-top: 20px;
-  }
-  
-  .container:hover input ~ .checkmark {
+}
+.container:hover input ~ .checkmark {
     background-color: #cbe7fd;
-  }
-  
-  .container input:checked ~ .checkmark {
+}
+.container input:checked ~ .checkmark {
     background-color: #289df6;
-  }
-  
-  h1 {
-    margin-top: 600px;
-    font-size: 100px;
+}
+h1 {
+    font-size: 53px;
     font-weight: 300;
     text-align: center;
     color: #289df6;
     padding-top: 15px;
     display: block;
-  }
-  
-  h2 {
-    font-size: 100px;
+}
+h2 {
+    font-size: 29px;
     font-weight: 300;
     text-align: center;
-  }
-  
-  h3 {
-    font-size: 100px;
+}
+h3 {
+    font-size: 43px;
     font-weight: 300;
     text-align: center;
     padding: 15px;
-  }
-  
-  h3 b {
-    font-size: 120px;
+}
+h3 b {
+    font-size: 53px;
     font-weight: 300;
     color: #289df6;
-  }
-  
-  .checkmark:after {
+}
+.checkmark:after {
     content: "";
-    margin: 5px;
     position: absolute;
     display: none;
-  }
-  
-  .container input:checked ~ .checkmark:after {
+}
+.container input:checked ~ .checkmark:after {
     display: block;
-  }
-  
-  .container .checkmark:after {
+}
+.container .checkmark:after {
     left: 9px;
     top: 5px;
     width: 5px;
@@ -188,4 +138,4 @@
     border: solid white;
     border-width: 0 2px 2px 0;
     transform: rotate(45deg);
-  }
+}
